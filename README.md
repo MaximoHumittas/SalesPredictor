@@ -13,7 +13,7 @@ bun run dev
 
 backend:
 
-python -m venv venv
+python -m venv venv (desde la raiz de proyecto)
 
 pip install -r backend/requirements.txt
 
