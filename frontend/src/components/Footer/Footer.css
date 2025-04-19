@@ -1,0 +1,39 @@
+/* Footer.css */
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .footer-nav-item {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-nav-item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-nav-item a:hover {
+    text-decoration: underline;
+  }
+  
