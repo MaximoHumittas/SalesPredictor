@@ -1,26 +1,31 @@
 import React from 'react';
 import './InfoCards.css';
 
+import exito from '../../assets/exito.png';
+import capacitation from '../../assets/capacitation.png';
+import security from '../../assets/securidad.png';
+import callCenter from '../../assets/callCenter.png';
+
 const infos = [
   {
     title: 'Casos de Éxito',
     text: 'Historias reales de clientes felices.',
-    image: '/images/icono1.png',
+    image: exito,
   },
   {
     title: 'Soporte 24/7',
     text: 'Siempre estamos para ayudarte.',
-    image: '/images/icono2.png',
+    image: callCenter,
   },
   {
     title: 'Capacitación',
     text: 'Aprende a sacarle el máximo provecho.',
-    image: '/images/icono3.png',
+    image: capacitation,
   },
   {
     title: 'Seguridad',
     text: 'Tus datos siempre protegidos.',
-    image: '/images/icono4.png',
+    image: security,
   },
 ];
 

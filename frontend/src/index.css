@@ -1,0 +1,14 @@
+.title {
+    color: #333;
+    font-size: 2rem;
+    text-align: center; /* centrado del texto dentro del h2 */
+  }
+  
+  .hero-title {
+    display: flex;
+    align-items: center;       /* centra verticalmente */
+    justify-content: center;   /* centra horizontalmente */
+    min-height: 200px;         /* define altura para que el centrado tenga efecto */
+    padding: 1rem;             /* opcional, espacio interno */
+    background-color: #f0f0f0; /* opcional, solo para ver el área */
+  }
