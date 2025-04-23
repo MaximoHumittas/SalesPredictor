@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAuth } from '../context/AuthContext';
-import { useNavigate } from 'react-router-dom'; // Importamos useNavigate
+import { useNavigate } from 'react-router-dom';
 import '../styles/login.css';
 
 const Login: React.FC = () => {
@@ -10,15 +10,15 @@ const Login: React.FC = () => {
   const [password, setPassword] = useState('');
 
   useEffect(() => {
-    setEmail('juan@example.com');
-    setPassword('hola123');
+    setEmail('juanito@mock.com');
+    setPassword('123456');
   }, []);
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      await login(email, password);  // Suponiendo que login es una función async
-      navigate('/dashboard');        // Redirigimos al dashboard
+      login(email, password);  // Ahora login acepta email y password
+      navigate('/dashboard');  // Redirigimos al dashboard
     } catch (error) {
       console.error('Error al iniciar sesión:', error);
     }
