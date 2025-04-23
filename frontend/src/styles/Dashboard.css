@@ -1,37 +1,56 @@
 .dashboard-container {
-    padding: 2rem;
-    font-family: sans-serif;
-  }
-  
-  .dashboard-row {
-    display: flex;
-    gap: 2rem;
-    margin-top: 2rem;
-    flex-wrap: wrap;
-  }
-  
-  .summary-panel {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-    flex-wrap: wrap;
-  }
-  
-  .chart-card {
-    flex: 1;
-    padding: 1rem;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  }
-  
-  .top-products-card ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .top-products-card li {
-    margin-bottom: 0.5rem;
-  }
-  
+  padding: 2rem;
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.dashboard-container h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.summary-panel {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.dashboard-row {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.chart-card, .top-products-card {
+  flex: 1;
+  min-width: 300px;
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s;
+}
+
+.chart-card:hover, .top-products-card:hover {
+  transform: translateY(-5px);
+}
+
+.top-products-card ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.top-products-card li {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+.top-products-card li strong {
+  color: #2563eb;
+  font-weight: 600;
+}

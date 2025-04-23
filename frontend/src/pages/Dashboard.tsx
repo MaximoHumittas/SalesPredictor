@@ -7,7 +7,9 @@ import { TopProducts } from '../dashboard/TopProducts';
 const Dashboard: React.FC = () => {
   return (
     <div className="dashboard-container">
-      <h1>Panel de control</h1>
+      <header>
+        <h1>Panel de Control</h1>
+      </header>
       <SummaryPanel />
       <div className="dashboard-row">
         <SalesChart />

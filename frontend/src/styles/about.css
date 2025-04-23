@@ -1,0 +1,40 @@
+/* src/pages/About.css */
+.about-page {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px 5%;
+    background-color: #f4f7fa;
+  }
+  
+  .intro-section, .closing-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .intro-card, .closing-card {
+    max-width: 800px;
+  }
+  
+  .intro-card h1, .closing-card h2 {
+    color: #1d3557;
+    margin-bottom: 16px;
+  }
+  
+  .intro-card p, .closing-card p {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .info-section, .features-section {
+    text-align: center;
+  }
+  
+  .info-section h2, .features-section h2 {
+    font-size: 2rem;
+    color: #1d3557;
+    margin-bottom: 24px;
+  }
+  

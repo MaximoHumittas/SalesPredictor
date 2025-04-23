@@ -28,9 +28,6 @@ const Navbar: React.FC = () => {
             </li>
 
             
-            <li className="navbar-item">
-              <Link to="/profile" className="navbar-link">Usuario</Link>
-            </li>
 
 
             <li className="navbar-item">
@@ -42,9 +39,12 @@ const Navbar: React.FC = () => {
               <Link to="/profile" className="navbar-link">Usuario</Link>
             </li>
 
-            <li>
-              <button onClick={logout}>Cerrar sesion</button>
+            <li className="navbar-item">
+              <button className="logout-button" onClick={logout}>
+                Cerrar sesión
+              </button>
             </li>
+
 
           </>
           
